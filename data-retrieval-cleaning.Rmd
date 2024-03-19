@@ -1,8 +1,8 @@
 ---
-title: "Ravelry Sweater Project, Part One"
+title: "Sadie's Sweaters, Part One"
 author: "Jenna Conklin"
 date: "2024-03-18"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -291,7 +291,7 @@ sweaters <- sweaters %>% select(-pattern_attributes, -attributes, -in_the_round,
 
 Since sales data is not publicly available, I'll need some kind of proxy measure for interest to help Sadie predict what might help direct the most traffic to her patterns. A few promising measures include the number of comments on a pattern, the number of completed projects logged on Ravelry, the number of times users have favorited the pattern, or the number of times users have added the pattern to their queue of future planned projects. Before selecting one of these three to focus on, I examined their relative distribution through a quick scatter plot. 
 
-```{r dependents, echo = FALSE} 
+```{r dependents, echo = FALSE, message = FALSE} 
 p1 <- ggplot(sweaters, aes(x=projects_count, y=queued_projects_count)) + 
   geom_point() + 
   geom_smooth() + 
