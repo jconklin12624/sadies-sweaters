@@ -1,4 +1,4 @@
-Ravelry Sweater Project, Part One
+Sadie’s Sweaters, Part One
 ================
 Jenna Conklin
 2024-03-18
@@ -475,9 +475,6 @@ on Ravelry, the number of times users have favorited the pattern, or the
 number of times users have added the pattern to their queue of future
 planned projects. Before selecting one of these three to focus on, I
 examined their relative distribution through a quick scatter plot.
-
-    ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
-    ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
 ![](sadies-sweaters1_files/figure-gfm/dependents-1.png)<!-- -->
 
