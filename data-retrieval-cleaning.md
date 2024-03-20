@@ -17,18 +17,17 @@ include larger works, starting with sweaters. Before investing her
 effort into developing and marketing her first pattern, she hopes to
 understand what factors will help her generate the most interest in her
 work. In this project, I will retrieve a sample of highly-rated sweater
-patterns using the Ravelry API, conduct both exploratory and inferential
-analyses, and make recommendations for Sadie to take into account when
-developing her first sweater pattern.
+patterns using the Ravelry API, conduct an exploratory analysis, and
+make recommendations for Sadie to take into account when developing her
+first sweater pattern.
 
 ## Structure of the Project
 
-To make it easier to navigate, this project is presented in three
+To make it easier to navigate, this project is presented in two
 sections.
 
 1.  Chapter One: Retrieve, Clean, and Organize Data
 2.  Chapter Two: Exploratory Data Analysis
-3.  Chapter Three: Inferential Analysis and Conclusions
 
 ## Retrieve Data
 
@@ -476,7 +475,7 @@ number of times users have added the pattern to their queue of future
 planned projects. Before selecting one of these three to focus on, I
 examined their relative distribution through a quick scatter plot.
 
-![](sadies-sweaters1_files/figure-gfm/dependents-1.png)<!-- -->
+![](data-retrieval-cleaning_files/figure-gfm/dependents-1.png)<!-- -->
 
     ## [1] "The number of patterns with zero completed projects is 1065."
 

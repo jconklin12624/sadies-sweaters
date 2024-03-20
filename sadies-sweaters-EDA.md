@@ -164,8 +164,7 @@ utilize the pattern attribute tags for flat or round work when uploading
 their pattern.
 
 Based on this exploration, I will recommend that Sadie consider
-designing patterns worked in the round over those worked flat, pending
-the outcome of the inferential analysis later on in this project.
+designing patterns worked in the round over those worked flat.
 
 ## Petite and Plus-Sized Patterns
 
@@ -194,9 +193,7 @@ for free rather than just considering the data from this sample.
 Does the number of languages a pattern is available in affect interest
 in a pattern? An initial inspection of the data suggests that it does
 not, given the low queued project counts observed among patterns offered
-in many languages and the lack of an obvious trend in the data. Perhaps
-the inferential analysis in part three of the project will offer greater
-insight on this point.
+in many languages and the lack of an obvious trend in the data.
 
 ![](sadies-sweaters-EDA_files/figure-gfm/languages-1.png)<!-- -->
 
@@ -214,7 +211,4 @@ factors appear to correlate to increased interest in the sample analyzed
 here. Furthermore, Sadie should not elevate any of the factors I have
 flagged as important above her own design considerations as an artist,
 as each of the relationships I have described appears to be either
-fairly weak or predict only a slight increase in interest. In the next
-segment of the project, I will investigate these factors further in an
-inferential analysis to better understand relationships that are not
-readily apparent upon simple visual inspection of the data.
+fairly weak or predict only a slight increase in interest.
